@@ -1,3 +1,6 @@
+// Nama	: Aitya Prasetyo Yogatama
+// NIM	: 2100018209
+
 #include <iostream>
 using namespace std;
 
