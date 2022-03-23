@@ -6,8 +6,7 @@ int main(){
   cout<<"=========================="<<endl;
   cout<<"1. Ayam goreng Rp: 17.000"<<endl;
   cout<<"2. Ayam bakar Rp: 21.000"<<endl;
-  cout<<"3. chicken Rp: 15.000"endl;
   
-  cout<<"Masukan No Menu pilihan : ";
-  cout<<"Masukan jumlah pesanan : ";
+  cout<<"Jumlah Pesanan Ayam goreng : ";
+  cout<<"Jumlah Pesanan Ayam bakar : ";
   cin>>kode;
