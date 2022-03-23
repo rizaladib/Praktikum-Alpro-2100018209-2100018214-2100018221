@@ -29,7 +29,7 @@ int main(){
   kembali = beli - bayar;
   cout<<"=========================="<<endl;
   
-  cout << "	Struk Belanja :	" << endl;
+  cout << "	Struk Belanja hari ini:	" << endl;
   cout << "1. Ayam goreng : " << goreng << " x 17.000 = " << totalg << endl;
   cout << "2. Ayam bakar : " << bakar << " x 21.000 = " << totalb << endl;
   cout << "Diskon	= " << diskon << endl;
