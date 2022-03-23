@@ -31,7 +31,7 @@ int main(){
   
   cout << "	Struk Belanja :	" << endl;
   cout << "1. Ayam goreng : " << goreng << " x 17.000 = " << totalg << endl;
-  cout << "1. Ayam goreng : " << bakar << " x 21.000 = " << totalb << endl;
+  cout << "2. Ayam bakar : " << bakar << " x 21.000 = " << totalb << endl;
   cout << "Diskon	= " << diskon << endl;
   cout << "Bayar	= " << bayar << endl;
   cout << "Kembali	= " << kembali << endl;
