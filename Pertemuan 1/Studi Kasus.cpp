@@ -35,4 +35,6 @@ int main(){
   cout << "Diskon	= " << diskon << endl;
   cout << "Bayar	= " << bayar << endl;
   cout << "Kembali	= " << kembali << endl;
+  
+  return 0;
 }
