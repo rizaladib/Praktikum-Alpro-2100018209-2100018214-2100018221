@@ -1,22 +1,38 @@
 #include <iostream>
 using namespace std;
 int main(){
-  int goreng,bakar,total,bayar;
+  int goreng,bakar,totalb,totalg,total,diskon = 0,bayar,beli,kembali;
   cout<<"~~~MENU KEDAI AYAM KAMI~~~"<<endl;
   cout<<"=========================="<<endl;
   cout<<"1. Ayam goreng Rp: 17.000"<<endl;
   cout<<"2. Ayam bakar Rp: 21.000"<<endl;
-  
+  cout<<"=========================="<<endl;
   cout<<"Jumlah Pesanan Ayam goreng : ";
-  cin>>goreng;
+  cin >> goreng;
   cout<<"Jumlah Pesanan Ayam bakar : ";
-  cin>>bakar;
+  cin >> bakar;
+  cout<<"=========================="<<endl;
   
-  total = (17000 * goreng) + (21000 * bakar);
+  totalg = 17000 * goreng;
+  totalb = 21000 * bakar;
+  total = totalg + totalb;
+  
   if(total >= 45000){
-  	bayar = total - total * 10/100;
+  	diskon = total * 10/100;
+  	bayar = total - diskon;
   }
   else{
   	bayar = total;
   }
+  cout << "Total pesanan : " << bayar << endl;
+  cout << "Masukkan jumlah uang yang dibayar pembeli : "; cin >> beli;
+  kembali = beli - bayar;
+  cout<<"=========================="<<endl;
+  
+  cout << "	Struk Belanja :	" << endl;
+  cout << "1. Ayam goreng : " << goreng << " x 17.000 = " << totalg << endl;
+  cout << "1. Ayam goreng : " << bakar << " x 21.000 = " << totalb << endl;
+  cout << "Diskon	= " << diskon << endl;
+  cout << "Bayar	= " << bayar << endl;
+  cout << "Kembali	= " << kembali << endl;
 }
