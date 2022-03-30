@@ -7,17 +7,20 @@ int main(){
 	ofstream struk;
 	struk.open("struk.txt");
 	
+	cout << "======= Daftar Menu =======" << endl;
 	cout << "1. Ayam geprek    : Rp. 21000" << endl;
 	cout << "2. Ayam goreng    : RP. 17000" << endl;
 	cout <<	"3. Udang goreng   : Rp. 19000" << endl;
 	cout <<	"4. Cumi goreng    : Rp. 20000" << endl;
 	cout <<	"5. Ayam bakar     : Rp. 25000" << endl;
+	cout << "===========================" << endl;
 	cout << "Masukkan jumlah pesanan ayam geprek : "; cin >> geprek;
 	cout << "Masukkan jumlah pesanan ayam goreng : "; cin >> goreng;
 	cout << "Masukkan jumlah pesanan udang goreng : "; cin >> udang;
 	cout << "Masukkan jumlah pesanan cumi goreng : "; cin >> cumi;
 	cout << "Masukkan jumlah pesanan ayam bakar : "; cin >> bakar;
 	cout << "Masukkan jarak rumah anda dalam km : "; cin >> jarak;
+	cout << "===========================" << endl;
 	 
 	total1 = 21000 * geprek;
 	total2 = 17000 * goreng;
@@ -64,7 +67,8 @@ int main(){
   	struk << "3. Udang goreng	: " << udang << " x 19.000 = " << total3 << endl;
   	struk << "4. Cumi goreng	: " << cumi << " x 20.000 = " << total4 << endl;
   	struk << "5. Ayam  bakar	: " << bakar << " x 25.000 = " << total5 << endl;
-  	
+	cout << "==========================" << endl;
+	struk << "Total belanja	= " << totals << endl;
   	struk << "Diskon	= " << diskon << endl;
   	struk << "Ongkir	= " << ongkir2 << endl;
   	struk << "Bayar 	= " << bayar << endl;
