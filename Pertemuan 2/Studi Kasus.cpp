@@ -68,7 +68,7 @@ int main(){
   	struk << "Diskon	= " << diskon << endl;
   	struk << "Ongkir	= " << ongkir2 << endl;
   	struk << "Bayar 	= " << bayar << endl;
-  	struk << "Kembali	= " << kembali << endl;
+  	struk << "Kembali	= " <<kembali << endl;
   	
  	struk.close();
 	return 0; 	
