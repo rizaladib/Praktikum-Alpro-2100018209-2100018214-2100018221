@@ -75,6 +75,7 @@ int main(){
   	struk << "Ongkir	= " << ongkir2 << endl;
   	struk << "Bayar 	= " << bayar << endl;
   	struk << "Kembali	= " <<kembali << endl;
+	cout << "Terima Kasih" << endl;
   	
  	struk.close();
 	return 0; 	
